@@ -5,7 +5,7 @@ from rest_framework import status
 from .serializers import HamburguesaSerializer, IngredienteSerializer
 from .models import Hamburguesa, Ingrediente
 
-RUTA = 'http://localhost:8000'
+RUTA = 'http://restburgerapi.herokuapp.com'
 
 class HamburguesasApiView(APIView):
 
