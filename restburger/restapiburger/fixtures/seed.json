@@ -1,0 +1,128 @@
+[
+    {
+        "model": "restapiburger.hamburguesa",
+        "pk": 1,
+        "fields": {
+            "nombre": "Clásica",
+            "precio": 5990,
+            "descripcion": "Hamburguesa clásica con doble carne, doble cheddar y ketchup",
+            "imagen": "https://www.rockandpop.cl/wp-content/uploads/2018/03/cheese.jpg",
+            "ingredientes": [2, 6]
+        }
+
+    },
+    {
+        "model": "restapiburger.hamburguesa",
+        "pk": 2,
+        "fields": {
+            "nombre": "Italiana",
+            "precio": 5990,
+            "descripcion": "Hamburguesa simple con palta, tomate y mayonesa",
+            "imagen": "https://riquisimovalle.cl/wp-content/uploads/2019/01/hamburguesa-italiana.png",
+            "ingredientes": [3, 7, 8]
+        }
+    },
+    {
+        "model": "restapiburger.hamburguesa",
+        "pk": 3,
+        "fields": {
+            "nombre": "WestCoast Burger",
+            "precio": 6990,
+            "descripcion": "Hamburguesa simple, con lechuga, tomate, cebolla morada, cheddar y salsa especial",
+            "imagen": "https://insidescoopsf.sfgate.com/files/2015/07/burger.jpg",
+            "ingredientes": [1, 2, 3, 4]
+        }
+    },
+    {
+        "model": "restapiburger.hamburguesa",
+        "pk": 4,
+        "fields": {
+            "nombre": "Blue cheese Burger",
+            "precio": 6990,
+            "descripcion": "Hamburguesa simple con queso azul, champiñones, salsa barbecue y ketchup",
+            "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/12/50/b1/ff/mushroom-and-blue-cheese.jpg",
+            "ingredientes": [5, 9, 6, 10]
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 1,
+        "fields": {
+            "nombre": "Lechuga",
+            "descripcion": "La más fresca lechuga"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 2,
+        "fields": {
+            "nombre": "Cheddar",
+            "descripcion": "Queso americano procesado"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 3,
+        "fields": {
+            "nombre": "Tomate",
+            "descripcion": "El más rico y rojo tomate de la zona"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 4,
+        "fields": {
+            "nombre": "Cebolla morada",
+            "descripcion": "Suave cebolla morada"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 5,
+        "fields": {
+            "nombre": "Queso Azul",
+            "descripcion": "Queso Azul"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 6,
+        "fields": {
+            "nombre": "Ketchup",
+            "descripcion": "ketchup"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 7,
+        "fields": {
+            "nombre": "Mayonesa",
+            "descripcion": "mayonesa"
+        }
+    }, 
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 8,
+        "fields": {
+            "nombre": "Palta",
+            "descripcion": "La más rica palta"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 9,
+        "fields": {
+            "nombre": "Champiñones",
+            "descripcion": "Champiñones salteados con ajo y pimienta"
+        }
+    },
+    {
+        "model": "restapiburger.ingrediente",
+        "pk": 10,
+        "fields": {
+            "nombre": "Salsa Barbecue",
+            "descripcion": "Salsa de cebolla ahumada agridulce"
+        }
+    }
+
+]
